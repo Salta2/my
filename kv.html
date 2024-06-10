@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тест по сортировкам</title>
+</head>
+<body>
+  <h1>Тест по сортировкам</h1>
+  <form id="quizForm">
+<h2>1. В отличие от сортировки выбором, время выполнения сортировки вставками зависит от изначального порядка элементов во входных данных.</h2>
+    <input type="radio" name="q1" value="True"> Верно<br>
+    <input type="radio" name="q1" value="False"> Неверно<br>
+
+    <h2>2. Выбранный опорный элемент может быть только первым элементом в быстрой сортировке.</h2>
+    <input type="radio" name="q2" value="True"> Верно<br>
+    <input type="radio" name="q2" value="False"> Неверно<br>
+
+    <h2>3. Емкость и коэффициент загрузки - это параметры, которые влияют на производительность хэш-таблицы.</h2>
+    <input type="radio" name="q3" value="True"> Верно<br>
+    <input type="radio" name="q3" value="False"> Неверно<br>
+
+    <h2>4. Выберите наихудший случай временной сложности алгоритма сортировки вставками.</h2>
+    <input type="radio" name="q4" value="a"> O(1)<br>
+    <input type="radio" name="q4" value="b"> O(n^2)<br>
+    <input type="radio" name="q4" value="c"> O(n)<br>
+    <input type="radio" name="q4" value="d"> O(n-1)<br>
+
+    <h2>5. Когда алгоритм генерирует один и тот же адрес для разных идентификаторов, это известно как:</h2>
+    <input type="radio" name="q5" value="a"> Knock<br>
+    <input type="radio" name="q5" value="b"> Double Hash<br>
+    <input type="radio" name="q5" value="c"> Bang<br>
+    <input type="radio" name="q5" value="d"> Collisions<br>
+
+    <h2>6. Предположим, у нас есть алгоритм, который находит медиану несортированного массива за время O(n). Теперь рассмотрим реализацию быстрой сортировки, где мы сначала находим медиану с помощью вышеуказанного алгоритма, а затем используем ее в качестве опорного элемента. Какова будет наихудшая временная сложность этой модифицированной быстрой сортировки?</h2>
+    <input type="radio" name="q6" value="a"> O(nlogn)<br>
+    <input type="radio" name="q6" value="b"> O(n^2 logn)<br>
+    <input type="radio" name="q6" value="c"> O(logn)<br>
+    <input type="radio" name="q6" value="d"> O(n^2)<br>
+
+    <h2>7. Какой из следующих алгоритмов сортировки является самым простым?</h2>
+    <input type="radio" name="q7" value="a"> Quick Sort<br>
+    <input type="radio" name="q7" value="b"> Merge Sort<br>
+    <input type="radio" name="q7" value="c"> Selection Sort<br>
+    <input type="radio" name="q7" value="d"> Insertion Sort<br>
+    <input type="radio" name="q7" value="e"> Bubble Sort<br>
+
+    <h2>8. Время выполнения быстрой сортировки зависит от выбора:</h2>
+    <input type="radio" name="q8" value="a"> Размера массива (Size of array)<br>
+    <input type="radio" name="q8" value="b"> Опорного элемента (Pivot element)<br>
+    <input type="radio" name="q8" value="c"> Последовательности значений (Sequence of values)<br>
+    <input type="radio" name="q8" value="d"> Ни один из вышеуказанных (None of the above)<br>
+
+    <h2>9. Какое из следующих утверждений является наибольшим преимуществом сортировки выбором?</h2>
+    <input type="radio" name="q9" value="a"> Она требует только n обменов при любых условиях (Size of array)<br>
+    <input type="radio" name="q9" value="b"> Ее легко реализовать <br>
+    <input type="radio" name="q9" value="c"> У нее низкая временная сложность <br>
+    <input type="radio" name="q9" value="d"> У нее низкая пространственная сложность <br>     
+   
+    <h2>10. Выберите наихудший случай быстрой сортировки, когда выбранный опорный элемент всегда является наименьшим или наибольшим:</h2>
+    <input type="radio" name="q10" value="a"> O(n-1) <br>
+    <input type="radio" name="q10" value="b"> O(n) <br>
+    <input type="radio" name="q10" value="c"> O(logn) <br>
+    <input type="radio" name="q10" value="d"> O(n^2)<br>
+
+    <h2>11. Каждый класс предоставляет свою собственную реализацию hashCode().</h2>
+    <input type="radio" name="q11" value="True"> Верно<br>
+    <input type="radio" name="q11" value="False"> Неверно<br>
+  
+    <h2>12. Какой из следующих алгоритмов сортировки имеет временную сложность O(n*log(n)) в среднем случае?</h2>
+    <input type="radio" name="q12" value="a"> Selection Sort <br>
+    <input type="radio" name="q12" value="b"> Quick Sort <br>
+    <input type="radio" name="q12" value="c"> Heap Sort <br>
+    <input type="radio" name="q12" value="d">  Insertion Sort<br>
+    <input type="radio" name="q12" value="e">  Merge Sort<br>
+
+    <h2>13. Что такое куча в компьютерной науке?</h2>
+<input type="radio" name="q13" value="a"> Тип сортировочного алгоритма <br>
+<input type="radio" name="q13" value="b"> Область памяти, используемая для хранения локальных переменных <br>
+<input type="radio" name="q13" value="c"> Структура данных, которая следует принципу последним пришел - первым ушел <br>
+<input type="radio" name="q13" value="d"> Структура данных для эффективного нахождения минимального или максимального элемента <br>
+
+<h2>14. Сортировка вставками выполняет две операции: она сканирует список, сравнивая каждую пару элементов, и</h2>
+<input type="radio" name="q14" value="True"> Верно<br>
+<input type="radio" name="q14" value="False"> Неверно<br>
+
+
+<h2>15. Учитывая несортированный массив, в котором каждый элемент находится не более чем на k расстоянии от своей позиции в отсортированном массиве, на какой сортировке можно легко модифицировать этот массив и какова будет получаемая временная сложность?</h2>
+<input type="radio" name="q15" value="a"> Heap Sort с временной сложностью O(nlogn)<br>
+<input type="radio" name="q15" value="b"> Insertion Sort с временной сложностью O(kn)<br>
+<input type="radio" name="q15" value="c"> Merge Sort с временной сложностью O(kLogk)<br>
+<input type="radio" name="q15" value="d"> QuickSort с временной сложностью O(k Logk)<br>
+
+ <h2>Вопрос 16: Какой алгоритм сортировки имеет временную сложность O(n^2) в худшем и среднем случаях?</h2>
+    <input type="radio" name="q16" value="a"> Bubble Sort<br>
+    <input type="radio" name="q16" value="b"> Heap Sort<br>
+    <input type="radio" name="q16" value="c"> Merge Sort<br>
+    <input type="radio" name="q16" value="d"> Quick Sort<br>
+
+    <h2>Вопрос 17: Какой алгоритм сортировки имеет временную сложность O(n log n)?</h2>
+    <input type="radio" name="q17" value="a"> Bubble Sort<br>
+    <input type="radio" name="q17" value="b"> Heap Sort<br>
+    <input type="radio" name="q17" value="c"> Merge Sort<br>
+    <input type="radio" name="q17" value="d"> Quick Sort<br>
+
+    <h2>Вопрос 18: Какой алгоритм сортировки строит кучу из входных данных?</h2>
+    <input type="radio" name="q18" value="a"> Bubble Sort<br>
+    <input type="radio" name="q18" value="b"> Heap Sort<br>
+    <input type="radio" name="q18" value="c"> Merge Sort<br>
+    <input type="radio" name="q18" value="d"> Quick Sort<br>
+
+    <h2>Вопрос 19: Какой алгоритм сортировки рекурсивно разделяет последовательность данных до тех пор, пока каждая подпоследовательность не достигнет своего "атомного" представления?</h2>
+    <input type="radio" name="q19" value="a"> Bubble Sort<br>
+    <input type="radio" name="q19" value="b"> Heap Sort<br>
+    <input type="radio" name="q19" value="c"> Merge Sort<br>
+    <input type="radio" name="q19" value="d"> Quick Sort<br>
+
+    <h2>Вопрос 20: Какой алгоритм сортировки использует пивот для разделения элементов на два подмассива?</h2>
+    <input type="radio" name="q20" value="a"> Bubble Sort<br>
+    <input type="radio" name="q20" value="b"> Heap Sort<br>
+    <input type="radio" name="q20" value="c"> Merge Sort<br>
+    <input type="radio" name="q20" value="d"> Quick Sort<br>
+
+    <br><br>
+    <button type="submit">Подтвердить</button>
+  </form>
+
+ <script>
+    document.getElementById('quizForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const answers = {
+        q1: document.querySelector('input[name="q1"]:checked').value,
+        q2: document.querySelector('input[name="q2"]:checked').value,
+        q3: document.querySelector('input[name="q3"]:checked').value,
+        q4: document.querySelector('input[name="q4"]:checked').value,
+        q5: document.querySelector('input[name="q5"]:checked').value,
+        q6: document.querySelector('input[name="q6"]:checked').value,
+        q7: document.querySelector('input[name="q7"]:checked').value,
+        q8: document.querySelector('input[name="q8"]:checked').value,
+        q9: document.querySelector('input[name="q9"]:checked').value,
+        q10: document.querySelector('input[name="q10"]:checked').value,
+        q11: document.querySelector('input[name="q11"]:checked').value,
+        q12: document.querySelector('input[name="q12"]:checked').value,
+        q13: document.querySelector('input[name="q13"]:checked').value,
+        q14: document.querySelector('input[name="q14"]:checked').value,
+        q15: document.querySelector('input[name="q15"]:checked').value,
+        q16: document.querySelector('input[name="q16"]:checked').value,
+        q17: document.querySelector('input[name="q17"]:checked').value,
+        q18: document.querySelector('input[name="q18"]:checked').value,
+        q19: document.querySelector('input[name="q19"]:checked').value,
+        q20: document.querySelector('input[name="q20"]:checked').value,
+      };
+
+      // Расчет результатов
+      let score = 0;
+      const incorrectAnswers = [];
+      if (answers.q1 === 'True') score++;
+      else incorrectAnswers.push('Вопрос 1');
+      if (answers.q2 === 'False') score++;
+      else incorrectAnswers.push('Вопрос 2');
+      if (answers.q3 === 'True') score++;
+      else incorrectAnswers.push('Question 3');
+      if (answers.q4 === 'b') score++;
+      else incorrectAnswers.push('Question 4');
+      if (answers.q5 === 'd') score++;
+      else incorrectAnswers.push('Question 5');
+      if (answers.q6 === 'b') score++;
+      else incorrectAnswers.push('Question 6');
+      if (answers.q7 === 'e') score++;
+      else incorrectAnswers.push('Question 7');
+      if (answers.q8 === 'b') score++;
+      else incorrectAnswers.push('Question 8');
+      if (answers.q9 === 'b') score++;
+      else incorrectAnswers.push('Question 9');
+      if (answers.q10 === 'd') score++;
+      else incorrectAnswers.push('Question 10');
+      if (answers.q11 === 'True') score++;
+      else incorrectAnswers.push('Question 11');
+      if (answers.q12 === 'e') score++;
+      else incorrectAnswers.push('Question 12');
+      if (answers.q13 === 'd') score++;
+      else incorrectAnswers.push('Question 13');
+      if (answers.q14 === 'True') score++;
+      else incorrectAnswers.push('Question 14');
+      if (answers.q15 === 'b') score++;
+      else incorrectAnswers.push('Question 15');
+      if (answers.q16 === 'a') score++;
+      else incorrectAnswers.push('Question 16');
+      if (answers.q17 === 'c') score++;
+      else incorrectAnswers.push('Question 17');
+      if (answers.q18 === 'b') score++;
+      else incorrectAnswers.push('Question 18');
+      if (answers.q19 === 'c') score++;
+      else incorrectAnswers.push('Question 19');
+      if (answers.q20 === 'd') score++;
+      else incorrectAnswers.push('Question 20');
+
+
+      alert(`Ваш результат: ${score}/20\nНеправильные ответы: ${incorrectAnswers.join(', ')}`);
+    });
+  </script>
+</body>
+</html>
